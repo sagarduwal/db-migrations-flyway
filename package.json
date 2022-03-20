@@ -1,0 +1,16 @@
+{
+  "name": "db-migrations-flyway",
+  "version": "1.0.0",
+  "description": "Migration demo for use of flyway for database migration",
+  "main": "index.js",
+  "repository": "https://github.com/sagarduwal/db-migrations-flyway",
+  "author": "sagarduwal <sagarduwal0102@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "migrate": "flyway -configFiles=flyway.conf migrate"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
